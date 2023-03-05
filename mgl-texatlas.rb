@@ -2,7 +2,7 @@ class MglTexatlas < Formula
   desc "Texture atlas generator"
   homepage "https://acerola-software.jp/mgl/"
   url "https://acerola-software.jp/mgl-files/mgl-texatlas-1.3.0.tar.gz"
-  sha256 "358b29da635ea52b3cb5f32f42c2cd8384c6f5e4bd04219490fca9215600ca16"
+  sha256 "d82d44aba18d183af0b69a17406fc720434329281e2cf0b7580e440e0b0eb89c"
   license "Zlib"
 
   # depends_on "cmake" => :build
