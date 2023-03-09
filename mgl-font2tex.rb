@@ -4,8 +4,8 @@
 class MglFont2tex < Formula
   desc "Rasterized font generator"
   homepage "https://acerola-software.jp/mgl/"
-  url "https://acerola-software.jp/mgl-files/mgl-font2tex-1.3.0.tar.gz"
-  sha256 "abbf8f7920fdbf171b3d4dce5b82ca3f94eba2584d7dcec0320eb76261c13220"
+  url "https://acerola-software.jp/mgl-files/mgl-font2tex-1.3.1.tar.gz"
+  sha256 "1a868b7b02c364353514662cdb117609316ce4170fe1c932a09d1cfe3fde0540"
   license "Zlib"
 
   # depends_on "cmake" => :build
