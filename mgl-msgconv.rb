@@ -13,7 +13,7 @@ class MglMsgconv < Formula
     bin.mkpath
     system "make", "install", "INSTALL_DIR=#{bin}"
     man.mkpath
-    system "./manpages.sh", "install", "#{man}"
+    system "./makeman.sh", "install", "#{man}"
   end
 
   test do
