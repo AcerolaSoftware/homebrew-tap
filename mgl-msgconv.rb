@@ -1,11 +1,13 @@
 class MglMsgconv < Formula
   desc "Message converter"
   homepage "https://acerola-software.jp/mgl/"
-  url "https://acerola-software.jp/mgl-files/mgl-msgconv-1.2.0.tar.gz"
-  sha256 "d3054cf0a70a0411b5ad7bbf771c5737a666774a058d434c9bcc52f21251699a"
+  url "https://acerola-software.jp/mgl-files/mgl-msgconv-1.3.0.tar.gz"
+  sha256 "7f3c5e0bf30dbb6030aaa32a7c890f13ef83ccc0aab9e4d166de515fd9039746"
   license "Zlib"
 
   depends_on "scons" => :build
+  depends_on "pkg-config" => :build
+  depends_on "jsoncpp"
 
   def install
     bin.mkpath
